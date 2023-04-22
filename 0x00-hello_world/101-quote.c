@@ -1,12 +1,14 @@
-#include <stdio.h>
+#include<unistd.h>
 
 /**
  * main - Entry point
  *
- * Description: A C program that prints with put function
+ * Description: print a quote using write function
+ *    ssize_t write(int fd, fd, const void *buf, size_t coount);
  *
- * Return: Always 0 (Success)
+ * Return: 1 (error).
 */
+
 
 int main(void)
 {
