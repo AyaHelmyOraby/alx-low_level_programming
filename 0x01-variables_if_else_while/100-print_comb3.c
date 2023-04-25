@@ -34,10 +34,7 @@ int main(void)
 		}
 		digit1++;
 	}
-	purchar('\n');
+	putchar('\n');
 
 	return (0);
 }
-
-
-
