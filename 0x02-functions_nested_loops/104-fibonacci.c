@@ -46,7 +46,7 @@ int main(void)
 
 		while (f1a > 0 && initial > 0)
 		{
-			prinf("%d", 0);
+			printf("%d", 0);
 			initial--;
 		}
 			printf("%lu", f1);
