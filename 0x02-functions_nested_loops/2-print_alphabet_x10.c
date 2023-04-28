@@ -13,8 +13,8 @@ void print_alphapet_x10(void)
 	{
 		for (j = 'a'; j <= 'z'; j++)
 		{
-			_putchar(j);
+			putchar(j);
 		}
-		_putchar('\n');
+		putchar('\n');
 	}
 }
