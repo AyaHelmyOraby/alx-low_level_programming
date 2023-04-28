@@ -40,7 +40,7 @@ int main(void)
 
 	for (count = 1; count <= 98; count++)
 	{
-		if (fla > 0)
+		if (f1a > 0)
 			printf("%lu", f1a);
 		initial = numlength(mx) - 1 - numlength(f1);
 
