@@ -1,21 +1,23 @@
 #include "main.h"
 
 /**
-* print_alphapet_x10 -Prints the alphapet 10 times
-*
-* Return: Always 0 (Success)
-*/
-void print_alphapet_x10(void)
-{
-	int i;
-	char j;
+ * print_alphabet_x10 -Make alphabet x1o times
+ * Return: void
+ */
 
-	for (i = 1; i <= 10; i++)
+void print_alphabet_x10(void)
+{
+
+	char c;
+	int i = 0;
+
+	while (i <= 9)
 	{
-		for (j = 'a'; j <= 'z'; j++)
+		for (c = 'a'; c <= 'z'; c++)
 		{
-			putchar(j);
+			_putchar(c);
 		}
-		putchar('\n');
+		_putchar('\n');
+		i++;
 	}
 }
