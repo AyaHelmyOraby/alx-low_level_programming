@@ -1,6 +1,5 @@
 #include "main.h"
 
-
 /**
  * print_time_table -prints time table of n
  *
@@ -8,7 +7,6 @@
 */
 
 void print_times_table(int n)
-
 {
 	int prod, mult, num;
 
