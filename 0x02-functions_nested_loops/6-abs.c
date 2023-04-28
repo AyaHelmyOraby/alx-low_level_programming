@@ -16,7 +16,7 @@ int _abs(int c)
 		int abc_val;
 
 		abc_val = c * -1;
-		return (abs_val);
+		return (abc_val);
 	}
 	return (c);
 }
