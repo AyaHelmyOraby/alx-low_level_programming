@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * print_time_table -prints time table of n
  *
