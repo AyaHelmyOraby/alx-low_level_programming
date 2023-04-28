@@ -46,6 +46,9 @@ int main(void)
 
 		while (f1a > 0 && initial > 0)
 		{
+			prinf("%d", 0);
+			initial--;
+		}
 			printf("%lu", f1);
 
 			sum = (f1 + f2) % mx;
@@ -60,6 +63,6 @@ int main(void)
 			else
 				printf("\n");
 		}
+
 		return (0);
-	}
 }
