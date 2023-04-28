@@ -23,12 +23,11 @@ int main(void)
 
 		if ((sum % 2) == 0)
 			total += sum;
-		printf("%lu", sum);
 
 		fib1 = fib2;
 		fib2 = sum;
 	}
-	printf("%.0f\n", total);
+	printf("%.0f\n", tota1);
 
 	return (0);
 }
