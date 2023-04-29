@@ -4,7 +4,7 @@
  * print_line - print a straight line
  *
  * @n: is the number of timws the - character
- *     should be print
+ *     should be printed
 */
 
 void print_line(int n)
