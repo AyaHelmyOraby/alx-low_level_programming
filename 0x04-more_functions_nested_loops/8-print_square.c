@@ -1,30 +1,23 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
-*print_square - print square
-*@size: papameter
-*Return: return nothing
-*/
-
+ * print_square - prints hashes squares.
+ * @size: size of the square.
+ *
+ * Return: no return.
+ */
 void print_square(int size)
 {
-	int ine1, ine2;
+	int a, b;
 
-	if (size > 0)
+	for (a = 0; a < size; a++)
 	{
-		for (ine2 = 0; ine2 < size; ine1++)
+		for (b = 0; b < size; b++)
 		{
-			for (ine1 = 0; ine2 < (size - 1); ine2++)
-			{
-				putchar('0');
-			}
-			putchar('0');
-			putchar('\n');
+			_putchar(35);
 		}
+		if (a != size - 1)
+			_putchar('\n');
 	}
-	else
-	{
-		putchar('\n');
-	}
+	_putchar('\n');
 }
