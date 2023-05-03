@@ -8,7 +8,7 @@
 int _strlen(char *s)
 {
 	int n = 0;
-	/incremeant up to when the last character is NULL,\0/
+	/*incremeant up to when the last character is NULL,\0*/
 	while (*(s + n) != 0)
 	{
 		n++;
